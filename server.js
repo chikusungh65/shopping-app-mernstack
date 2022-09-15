@@ -46,6 +46,6 @@ app.get('*',(req,res) =>{
 app.use(errorHandler);
 
 const PORT = 8080;
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || '0.0.0.0', () => {
     console.log(`Server Running in ${process.env.NODE_ENV} Mode on Port ${process.env.PORT}`.inverse);
 });
