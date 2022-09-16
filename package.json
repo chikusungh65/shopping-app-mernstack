@@ -7,7 +7,7 @@
     "node": "14.15.3"
   },
   "scripts": {
-    "start": " node backend/server.js",
+    "start": " node server.js",
     "build": "webpack",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1",
