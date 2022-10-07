@@ -15,11 +15,11 @@ const Header = () => {
 
     return (
         <>
-            <Navbar bg="dark" expand="lg" variant='dark' collapseOnSelect>
+            <Navbar bg="success" expand="lg" variant='success' collapseOnSelect>
                 <Container>
 
                     <LinkContainer to="/">
-                        <Navbar.Brand>Online-Shop</Navbar.Brand>
+                        <Navbar.Brand>Black-Bull Garments/Accessories</Navbar.Brand>
                     </LinkContainer>
 
 
